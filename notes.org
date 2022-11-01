@@ -1,0 +1,31 @@
+* Notes
+I used these commands to run this lab:
+#+begin_src bash
+bundle install
+rails s
+#+end_src
+
+I then generated the following models with the following commands:
+#+begin_src bash
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-students $ rails g model instructor student --no-test-framework
+Running via Spring preloader in process 8490
+      invoke  active_record
+      create    db/migrate/20221101001042_create_instructors.rb
+      create    app/models/instructor.rb
+#+end_src
+
+I then created the following models via the following commands:
+#+begin_src bash
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-students $ rails g model instructor --no-test-framework
+Running via Spring preloader in process 8536
+      invoke  active_record
+      create    db/migrate/20221101001145_create_instructors.rb
+      create    app/models/instructor.rb
+samuelbanya@Samuels-MBP ~/hub/Development/code/phase-4/phase-4-rails-practice-challenge-students $ rails g model student --no-test-framework
+Running via Spring preloader in process 8549
+      invoke  active_record
+      create    db/migrate/20221101001151_create_students.rb
+      create    app/models/student.rb
+#+end_src
+
+<2022-10-31 Mon 19:13>: There's no tests or solutions branch so I'll leave this practice for another time.
